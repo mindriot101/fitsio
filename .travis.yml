@@ -37,6 +37,7 @@ script:
     - python setup.py build 
     - python setup.py clean -a
     - python setup.py build_ext
+    - python -m fitsio.test
 
 #notifications:
 #  email: false
